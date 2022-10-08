@@ -1,0 +1,53 @@
+     MouseID: 850
+Session Type: .trn
+ Left Object: Object 1
+Right Object: Object 2
+03:43:33 PM   Friday, Oct 7 2022
+
+*** Raw Data ***
+
+LKeyDown : 2.13
+LKeyUp   : 3.78
+
+RKeyDown : 8.59
+RKeyUp   : 10.00
+
+LKeyDown : 22.57
+LKeyUp   : 23.17
+
+RKeyDown : 26.17
+RKeyUp   : 26.98
+
+RKeyDown : 44.83
+RKeyUp   : 45.67
+
+LKeyDown : 46.51
+LKeyUp   : 47.12
+
+RKeyDown : 52.51
+RKeyUp   : 53.51
+
+LKeyDown : 68.18
+LKeyUp   : 69.79
+
+RKeyDown : 107.81
+RKeyUp   : 108.34
+
+RKeyDown : 248.97
+RKeyUp   : 249.68
+
+RKeyDown : 250.28
+RKeyUp   : 250.82
+
+RKeyDown : 303.88
+RKeyUp   : 304.44
+
+*** Data Summary ***
+
+ Left Object Explorations: 4
+Right Object Explorations: 8
+   Total Left Object Time: 4.44
+  Total Right Object Time: 6.39
+    Left/Right Time Ratio: 0.70
+        Total Object Time: 10.84
+         Session Duration: 600.02
