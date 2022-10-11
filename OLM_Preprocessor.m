@@ -93,16 +93,22 @@ OLMScoredData.Condition = Condition;
 %% Visualize data
 args = input('Visualize data? yes/no (y/n)','s');
 if (args == "yes") | (args == 'y') %#ok<OR2>
-    % CNO in blue, saline in red
+    titleSize = 15;
+    % Ratio: CNO in blue, saline in red
     figure
     plot([0 1], [OLMScoredData.Ratio(1), OLMScoredData.Ratio(3); OLMScoredData.Ratio(5), OLMScoredData.Ratio(7); OLMScoredData.Ratio(10), OLMScoredData.Ratio(12); OLMScoredData.Ratio(14), OLMScoredData.Ratio(16)], 'b',...
     [0 1], [OLMScoredData.Ratio(2), OLMScoredData.Ratio(4); OLMScoredData.Ratio(6), OLMScoredData.Ratio(8); OLMScoredData.Ratio(9), OLMScoredData.Ratio(11); OLMScoredData.Ratio(13), OLMScoredData.Ratio(15)], 'r')
     xlim([-0.5 1.5])
+    title('Ratio: CNO in blue, saline in red', 'Fontsize', titleSize)
+    
+    % Make is so that the numbers are the proportion of the average between
+    % two days to normalize among rats
 
-    % Saline on left, CNO on right
+    % DI: saline on left, CNO on right
     figure
-    scatter([1 0 1 0 0 1 0 1], OLMScoredData.DI([3,4,7,8,11,12,15,16]))
+    scatter([0 1 0 1 1 0 1 0], OLMScoredData.DI([3,4,7,8,11,12,15,16]))
     xlim([-0.5 1.5])
+    title('DI: CNO on left, saline on right', 'Fontsize', titleSize)
 else
 end
 
