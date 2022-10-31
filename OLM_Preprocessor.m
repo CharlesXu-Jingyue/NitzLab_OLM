@@ -96,14 +96,17 @@ if (args == "yes") | (args == 'y') %#ok<OR2>
     titleSize = 15;
     % Ratio: CNO in blue, saline in red
     figure
-    plot([0 1], [OLMScoredData.Ratio(1), OLMScoredData.Ratio(3); OLMScoredData.Ratio(5), OLMScoredData.Ratio(7); OLMScoredData.Ratio(10), OLMScoredData.Ratio(12); OLMScoredData.Ratio(14), OLMScoredData.Ratio(16)], 'b',...
-    [0 1], [OLMScoredData.Ratio(2), OLMScoredData.Ratio(4); OLMScoredData.Ratio(6), OLMScoredData.Ratio(8); OLMScoredData.Ratio(9), OLMScoredData.Ratio(11); OLMScoredData.Ratio(13), OLMScoredData.Ratio(15)], 'r')
+    plot([0 1], [OLMScoredData.Ratio(1)/mean([OLMScoredData.Ratio(1), OLMScoredData.Ratio(3)]), OLMScoredData.Ratio(3)/mean([OLMScoredData.Ratio(1), OLMScoredData.Ratio(3)]);
+        OLMScoredData.Ratio(5)/mean([OLMScoredData.Ratio(5), OLMScoredData.Ratio(7)]), OLMScoredData.Ratio(7)/mean([OLMScoredData.Ratio(5), OLMScoredData.Ratio(7)]);
+        OLMScoredData.Ratio(10)/mean([OLMScoredData.Ratio(10), OLMScoredData.Ratio(12)]), OLMScoredData.Ratio(12)/mean([OLMScoredData.Ratio(10), OLMScoredData.Ratio(12)]);
+        OLMScoredData.Ratio(14)/mean([OLMScoredData.Ratio(14), OLMScoredData.Ratio(16)]), OLMScoredData.Ratio(16)/mean([OLMScoredData.Ratio(14), OLMScoredData.Ratio(16)])], 'b',...
+        [0 1], [OLMScoredData.Ratio(2)/mean([OLMScoredData.Ratio(2), OLMScoredData.Ratio(4)]), OLMScoredData.Ratio(4)/mean([OLMScoredData.Ratio(2), OLMScoredData.Ratio(4)]);
+        OLMScoredData.Ratio(6)/mean([OLMScoredData.Ratio(6), OLMScoredData.Ratio(8)]), OLMScoredData.Ratio(8)/mean([OLMScoredData.Ratio(6), OLMScoredData.Ratio(8)]);
+        OLMScoredData.Ratio(9)/mean([OLMScoredData.Ratio(9), OLMScoredData.Ratio(11)]), OLMScoredData.Ratio(11)/mean([OLMScoredData.Ratio(9), OLMScoredData.Ratio(11)]);
+        OLMScoredData.Ratio(13)/mean([OLMScoredData.Ratio(13), OLMScoredData.Ratio(15)]), OLMScoredData.Ratio(15)]/mean([OLMScoredData.Ratio(13), OLMScoredData.Ratio(15)]), 'r')
     xlim([-0.5 1.5])
     title('Ratio: CNO in blue, saline in red', 'Fontsize', titleSize)
     
-    % Make is so that the numbers are the proportion of the average between
-    % two days to normalize among rats
-
     % DI: saline on left, CNO on right
     figure
     scatter([0 1 0 1 1 0 1 0], OLMScoredData.DI([3,4,7,8,11,12,15,16]))
@@ -111,4 +114,9 @@ if (args == "yes") | (args == 'y') %#ok<OR2>
     title('DI: CNO on left, saline on right', 'Fontsize', titleSize)
 else
 end
+
+%% Notes
+
+% Make is so that the numbers are the proportion of the average between
+% two days to normalize among rats
 
