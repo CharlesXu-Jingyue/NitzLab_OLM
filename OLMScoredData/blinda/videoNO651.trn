@@ -1,0 +1,20 @@
+     MouseID: 651
+Session Type: .trn
+ Left Object: Object 1
+Right Object: Object 2
+05:16:40 PM   Monday, Oct 24 2022
+
+*** Raw Data ***
+
+LKeyDown : 8.71
+LKeyUp   : 10.03
+
+*** Data Summary ***
+
+ Left Object Explorations: 1
+Right Object Explorations: 0
+   Total Left Object Time: 1.33
+  Total Right Object Time: 0.00
+    Left/Right Time Ratio: 0.00
+        Total Object Time: 1.33
+         Session Duration: 600.07

@@ -1,0 +1,101 @@
+     MouseID: 450
+Session Type: .trn
+ Left Object: Object 1
+Right Object: Object 2
+12:22:56 PM   Wednesday, Oct 19 2022
+
+*** Raw Data ***
+
+LKeyDown : 1.00
+LKeyUp   : 3.52
+
+RKeyDown : 8.57
+RKeyUp   : 10.02
+
+RKeyDown : 15.73
+RKeyUp   : 15.97
+
+LKeyDown : 19.47
+LKeyUp   : 20.81
+
+LKeyDown : 20.91
+LKeyUp   : 23.05
+
+LKeyDown : 44.27
+LKeyUp   : 45.37
+
+RKeyDown : 45.97
+RKeyUp   : 52.36
+
+RKeyDown : 52.47
+RKeyUp   : 52.52
+
+RKeyDown : 74.42
+RKeyUp   : 75.62
+
+RKeyDown : 98.01
+RKeyUp   : 98.40
+
+LKeyDown : 103.32
+LKeyUp   : 108.64
+
+RKeyDown : 117.74
+RKeyUp   : 118.32
+
+LKeyDown : 120.34
+LKeyUp   : 122.55
+
+RKeyDown : 184.36
+RKeyUp   : 186.95
+
+LKeyDown : 187.97
+LKeyUp   : 188.46
+
+LKeyDown : 263.63
+LKeyUp   : 264.20
+
+RKeyDown : 282.25
+RKeyUp   : 282.72
+
+RKeyDown : 362.63
+RKeyUp   : 364.86
+
+RKeyDown : 366.09
+RKeyUp   : 367.15
+
+LKeyDown : 374.88
+LKeyUp   : 375.35
+
+RKeyDown : 376.98
+RKeyUp   : 378.48
+
+RKeyDown : 396.87
+RKeyUp   : 398.12
+
+RKeyDown : 406.35
+RKeyUp   : 407.06
+
+LKeyDown : 410.68
+LKeyUp   : 411.47
+
+RKeyDown : 453.50
+RKeyUp   : 454.74
+
+RKeyDown : 529.97
+RKeyUp   : 530.34
+
+RKeyDown : 583.86
+RKeyUp   : 584.08
+
+RKeyDown : 584.78
+RKeyUp   : 585.19
+
+*** Data Summary ***
+
+ Left Object Explorations: 10
+Right Object Explorations: 18
+   Total Left Object Time: 16.93
+  Total Right Object Time: 22.34
+    Left/Right Time Ratio: 0.76
+        Total Object Time: 39.27
+         Session Duration: 600.07
