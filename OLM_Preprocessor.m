@@ -112,7 +112,6 @@ if (args == "yes") | (args == 'y') %#ok<OR2>
     scatter([0 1 0 1 1 0 1 0], OLMScoredData.DI([3,4,7,8,11,12,15,16]))
     xlim([-0.5 1.5])
     title('DI: CNO on left, saline on right', 'Fontsize', titleSize)
-else
 end
 
 %% Notes
